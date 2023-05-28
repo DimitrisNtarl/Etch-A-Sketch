@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  text-align: center;
+  margin: auto;
+  background-color: #ddd;
+  padding: 1px;
+  height: 960px;
+  width: 960px;
+}
+
+.grid-item {
+  background-color: #fff;
+  border: 1px solid #999;
+  padding: 0;
+}
+
+.grid-item:hover {
+  background-color: #333;
+}
+
+.sq-btn {
+  display: grid;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  margin-bottom: 10px;
+}
